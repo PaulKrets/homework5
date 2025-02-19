@@ -39,8 +39,6 @@ query = '''
 result = pd.read_sql(query, conn)
 print(result)
 
-
-
 query = '''
     SELECT Country, Happiness_Score
     FROM happiness
